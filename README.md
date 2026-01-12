@@ -1,16 +1,45 @@
-# React + Vite
+# 🎬 Projeto FilmesTech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida em **React** que consome a **API do The Movie Database (TMDB)** para exibir filmes populares, detalhes dos filmes e permitir buscas.
 
-Currently, two official plugins are available:
+Projeto criado com foco em **aprendizado de React**, consumo de API REST e organização de componentes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Projeto ensinado no curso de React da Hora de Codar.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Funcionalidades
 
-## Expanding the ESLint configuration
+- 📽️ Listagem de filmes populares
+- 🔍 Busca de filmes pelo nome
+- 📄 Página de detalhes do filme
+- ⭐ Avaliação, duração e orçamento
+- 🎨 Interface responsiva
+- 🔐 Uso de variáveis de ambiente para proteger a API Key
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- React
+- Vite
+- JavaScript (ES6+)
+- React Router DOM
+- CSS
+- API TMDB
+- Git & GitHub
+
+---
+
+## 📂 Estrutura do Projeto
+src/
+├─ components/
+├─ pages/
+├─ services/
+├─ assets/
+├─ App.jsx
+└─ main.jsx
+
+🌐 API Utilizada
+
+The Movie Database (TMDB)
